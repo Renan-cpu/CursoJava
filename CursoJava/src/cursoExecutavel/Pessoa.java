@@ -8,8 +8,15 @@ public class Pessoa {
 	private int idade;
 	private String cpf;
 	private Data dataNascimento;
+	private String rg;
 	
 	
+	public String getRg() {
+		return rg;
+	}
+	public void setRg(String rg) {
+		this.rg = rg;
+	}
 	public Data getDataNascimento() {
 		return dataNascimento;
 	}

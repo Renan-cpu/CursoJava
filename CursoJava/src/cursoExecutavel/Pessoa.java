@@ -1,10 +1,14 @@
 package cursoExecutavel;
 
+import javax.xml.crypto.Data;
+
 public class Pessoa {
 	private String nome;
 	private String sobreNome;
 	private int idade;
 	private String cpf;
+	private Data dataNascimento;
+	
 	public String getNome() {
 		return nome;
 	}

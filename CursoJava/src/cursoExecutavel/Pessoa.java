@@ -1,12 +1,12 @@
 package cursoExecutavel;
 
+import javax.xml.crypto.Data;
+
 public class Pessoa {
 	private String nome;
 	private String sobreNome;
 	private int idade;
 	private String cpf;
-<<<<<<< HEAD
-=======
 	private Data dataNascimento;
 	private String rg;
 	
@@ -23,7 +23,7 @@ public class Pessoa {
 	public void setDataNascimento(Data dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
->>>>>>> refs/heads/development
+	
 	public String getNome() {
 		return nome;
 	}

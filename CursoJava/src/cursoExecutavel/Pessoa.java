@@ -9,6 +9,13 @@ public class Pessoa {
 	private String cpf;
 	private Data dataNascimento;
 	
+	
+	public Data getDataNascimento() {
+		return dataNascimento;
+	}
+	public void setDataNascimento(Data dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
 	public String getNome() {
 		return nome;
 	}

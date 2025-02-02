@@ -5,6 +5,25 @@ public class Pessoa {
 	private String sobreNome;
 	private int idade;
 	private String cpf;
+<<<<<<< HEAD
+=======
+	private Data dataNascimento;
+	private String rg;
+	
+	
+	public String getRg() {
+		return rg;
+	}
+	public void setRg(String rg) {
+		this.rg = rg;
+	}
+	public Data getDataNascimento() {
+		return dataNascimento;
+	}
+	public void setDataNascimento(Data dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+>>>>>>> refs/heads/development
 	public String getNome() {
 		return nome;
 	}
